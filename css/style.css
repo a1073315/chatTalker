@@ -1,0 +1,145 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 100%;
+
+    font: normal normal normal 20px/29px "Noto Sans TC";
+    color: #221E1F;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 139px;
+    position: sticky;
+    top: 0;
+    /* background-color: rgb(248, 248, 248, 0.7); */
+}
+.logo{
+    display: block;
+    width: 218px;
+    height: 40px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png);
+    background-size: contain;
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+}
+.programBtn{
+    display: block;
+    color: #fff;
+    background-color: #FF5D50;
+    font-size: 16px;
+    padding: 8px 32px;
+    border-radius: 22px;
+}
+
+.banner{
+    max-width: 1366px;
+    height: 559px;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg) no-repeat right;
+    background-size: auto 100%;
+    padding: 118px 139px;
+    margin-top: -88px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner h2{
+    font: normal normal bold 18px/26px "Noto Sans TC";
+    color: #56C4C5;
+    margin-bottom: 8px;
+}
+.banner h3{
+    font: normal normal bold 48px/70px "Noto Sans TC";
+    margin-bottom: 16px;
+}
+
+.slogan{
+    font: normal normal bold 32px/46px "Noto Sans TC";
+    text-align: center;
+    margin-bottom: 16px;
+}
+.platform{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 139px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+.platform li{
+    width: 30%;
+}
+.platform img{
+    height: 90px;
+    margin: 0 auto 24px;
+}
+.platform h4{
+    font: normal normal bold 24px/35px "Noto Sans TC";
+    margin-bottom: 24px;
+}
+.platform p{
+    font: normal normal normal 16px/24px "Noto Sans TC";
+    color: #747474;
+}
+
+.slogan-sm{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.role{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 139px 24px;
+    margin-bottom: 100px;
+    font: normal normal normal 16px/24px "Noto Sans TC";
+}
+.role li{
+    width: 24%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #00000014;
+}
+.role h5{
+    color: #56C4C5;
+    margin: 16px 0;
+}
+
+.introduce{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 139px;
+}
+.intro-left{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.intro-left li{
+    width: 48%;
+    padding: 32px;
+    margin-bottom: 28px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+.intro-left img{
+    height: 50px;
+}
+.intro-left div{
+    width: fit-content;
+    padding: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px #00000014;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+
+.intro-right{
+    width: 48%;
+}
